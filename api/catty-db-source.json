@@ -1,0 +1,449 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "brand": "Whisker Wellness",
+      "name": "Premium Chicken & Rice",
+      "type": "dry",
+      "age_group": "adult",
+      "special_diet": "none",
+      "nutritional_profile": {
+        "protein": 32,
+        "fat": 15,
+        "fiber": 3.5,
+        "moisture": 10,
+        "calories_per_cup": 385
+      },
+      "ingredients": [
+        "chicken",
+        "brown rice",
+        "chicken meal",
+        "rice bran",
+        "chicken fat",
+        "fish oil",
+        "taurine"
+      ],
+      "rating": 3.2,
+      "recommendations": "Excellent protein content for active adult cats. Rich in taurine for heart health. However, low moisture content may contribute to dehydration and urinary issues. Supplement with wet food or ensure constant water access."
+    },
+    {
+      "id": 2,
+      "brand": "Purrfect Choice",
+      "name": "Kitten Growth Formula",
+      "type": "wet",
+      "age_group": "kitten",
+      "special_diet": "none",
+      "nutritional_profile": {
+        "protein": 40,
+        "fat": 20,
+        "fiber": 1.5,
+        "moisture": 78,
+        "calories_per_can": 180
+      },
+      "ingredients": [
+        "turkey",
+        "chicken liver",
+        "salmon",
+        "turkey broth",
+        "DHA",
+        "calcium",
+        "taurine"
+      ],
+      "rating": 4.8,
+      "recommendations": "High protein and fat content ideal for growing kittens. DHA supports brain development."
+    },
+    {
+      "id": 3,
+      "brand": "Meow Mix Pro",
+      "name": "Weight Management Formula",
+      "type": "dry",
+      "age_group": "adult",
+      "special_diet": "weight_control",
+      "nutritional_profile": {
+        "protein": 35,
+        "fat": 9,
+        "fiber": 6,
+        "moisture": 10,
+        "calories_per_cup": 310
+      },
+      "ingredients": [
+        "chicken meal",
+        "pea fiber",
+        "brown rice",
+        "oat fiber",
+        "chicken fat",
+        "L-carnitine",
+        "taurine"
+      ],
+      "rating": 3.0,
+      "recommendations": "Low fat, high fiber formula helps cats feel full while maintaining lean muscle mass. Contains L-carnitine for metabolism support. Dry format is not ideal for hydration - recommend mixing with wet food for weight management."
+    },
+    {
+      "id": 4,
+      "brand": "Feline First",
+      "name": "Senior Health Pate",
+      "type": "wet",
+      "age_group": "senior",
+      "special_diet": "none",
+      "nutritional_profile": {
+        "protein": 38,
+        "fat": 16,
+        "fiber": 2,
+        "moisture": 80,
+        "calories_per_can": 165
+      },
+      "ingredients": [
+        "chicken",
+        "turkey",
+        "chicken broth",
+        "fish oil",
+        "glucosamine",
+        "chondroitin",
+        "taurine"
+      ],
+      "rating": 4.6,
+      "recommendations": "Easy-to-digest formula with added joint support. High moisture content helps seniors stay hydrated."
+    },
+    {
+      "id": 5,
+      "brand": "Whisker Wellness",
+      "name": "Sensitive Stomach Formula",
+      "type": "dry",
+      "age_group": "adult",
+      "special_diet": "sensitive_stomach",
+      "nutritional_profile": {
+        "protein": 30,
+        "fat": 14,
+        "fiber": 4,
+        "moisture": 10,
+        "calories_per_cup": 365
+      },
+      "ingredients": [
+        "salmon",
+        "potato",
+        "pea protein",
+        "salmon meal",
+        "fish oil",
+        "prebiotics",
+        "taurine"
+      ],
+      "rating": 3.1,
+      "recommendations": "Limited ingredient formula with easily digestible proteins. Contains prebiotics for digestive health. Low moisture content is a concern - wet food version recommended for optimal hydration."
+    },
+    {
+      "id": 6,
+      "brand": "Purrfect Choice",
+      "name": "Grain-Free Turkey",
+      "type": "wet",
+      "age_group": "adult",
+      "special_diet": "grain_free",
+      "nutritional_profile": {
+        "protein": 42,
+        "fat": 18,
+        "fiber": 1,
+        "moisture": 82,
+        "calories_per_can": 195
+      },
+      "ingredients": [
+        "turkey",
+        "turkey liver",
+        "turkey broth",
+        "peas",
+        "carrots",
+        "fish oil",
+        "taurine"
+      ],
+      "rating": 4.7,
+      "recommendations": "High protein, grain-free option for cats with grain sensitivities. Rich in natural moisture."
+    },
+    {
+      "id": 7,
+      "brand": "Meow Mix Pro",
+      "name": "Urinary Health Formula",
+      "type": "dry",
+      "age_group": "adult",
+      "special_diet": "urinary_health",
+      "nutritional_profile": {
+        "protein": 33,
+        "fat": 13,
+        "fiber": 3,
+        "moisture": 10,
+        "calories_per_cup": 370
+      },
+      "ingredients": [
+        "chicken",
+        "brown rice",
+        "cranberry",
+        "chicken meal",
+        "fish oil",
+        "controlled minerals",
+        "taurine"
+      ],
+      "rating": 3.3,
+      "recommendations": "Controlled mineral levels help maintain urinary tract health. Contains cranberry for additional urinary support. Ironic concern: dry food itself increases urinary issues due to low moisture. Best used with wet food or water fountain."
+    },
+    {
+      "id": 8,
+      "brand": "Feline First",
+      "name": "Indoor Cat Formula",
+      "type": "dry",
+      "age_group": "adult",
+      "special_diet": "indoor",
+      "nutritional_profile": {
+        "protein": 31,
+        "fat": 12,
+        "fiber": 5.5,
+        "moisture": 10,
+        "calories_per_cup": 340
+      },
+      "ingredients": [
+        "chicken meal",
+        "brown rice",
+        "beet pulp",
+        "chicken fat",
+        "natural fiber",
+        "yucca extract",
+        "taurine"
+      ],
+      "rating": 4.2,
+      "recommendations": "Higher fiber content helps reduce hairballs and maintain healthy weight for less active indoor cats."
+    },
+    {
+      "id": 9,
+      "brand": "Primal Paws",
+      "name": "Chicken & Salmon Raw Blend",
+      "type": "raw",
+      "age_group": "adult",
+      "special_diet": "none",
+      "nutritional_profile": {
+        "protein": 45,
+        "fat": 22,
+        "fiber": 0.5,
+        "moisture": 75,
+        "calories_per_oz": 55
+      },
+      "ingredients": [
+        "chicken with ground bone",
+        "salmon",
+        "chicken liver",
+        "chicken heart",
+        "taurine",
+        "vitamin E",
+        "kelp"
+      ],
+      "rating": 4.9,
+      "recommendations": "Minimally processed, species-appropriate diet with excellent moisture content. Includes organ meats for complete nutrition. Requires proper handling and storage to prevent bacterial contamination."
+    },
+    {
+      "id": 10,
+      "brand": "Wild Whiskers",
+      "name": "Turkey & Quail Raw Formula",
+      "type": "raw",
+      "age_group": "adult",
+      "special_diet": "grain_free",
+      "nutritional_profile": {
+        "protein": 48,
+        "fat": 20,
+        "fiber": 0.3,
+        "moisture": 73,
+        "calories_per_oz": 58
+      },
+      "ingredients": [
+        "turkey with ground bone",
+        "whole quail",
+        "turkey liver",
+        "turkey gizzard",
+        "taurine",
+        "fish oil",
+        "organic kelp"
+      ],
+      "rating": 4.9,
+      "recommendations": "High-protein, biologically appropriate raw diet. Novel protein sources ideal for cats with sensitivities. Mimics natural prey composition. Must be thawed safely and served fresh."
+    },
+    {
+      "id": 11,
+      "brand": "Primal Paws",
+      "name": "Rabbit Feast Raw",
+      "type": "raw",
+      "age_group": "all_ages",
+      "special_diet": "limited_ingredient",
+      "nutritional_profile": {
+        "protein": 46,
+        "fat": 19,
+        "fiber": 0.4,
+        "moisture": 76,
+        "calories_per_oz": 52
+      },
+      "ingredients": [
+        "rabbit with ground bone",
+        "rabbit liver",
+        "rabbit heart",
+        "taurine",
+        "vitamin E supplement",
+        "kelp"
+      ],
+      "rating": 4.8,
+      "recommendations": "Single-protein raw diet excellent for elimination diets and food sensitivities. High moisture and protein content supports optimal feline health. Rabbit is a novel, lean protein."
+    }
+  ],
+  "cats": [
+    {
+      "id": 1,
+      "name": "Whiskers",
+      "age": 5,
+      "breed": "Domestic Shorthair",
+      "weight": 10.5,
+      "owner_name": "Sarah Johnson",
+      "owner_email": "s.johnson@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Luna",
+      "age": 2,
+      "breed": "Siamese",
+      "weight": 7.2,
+      "owner_name": "Michael Chen",
+      "owner_email": "m.chen@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Oliver",
+      "age": 8,
+      "breed": "Maine Coon",
+      "weight": 15.8,
+      "owner_name": "Emma Rodriguez",
+      "owner_email": "e.rodriguez@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Mittens",
+      "age": 3,
+      "breed": "Persian",
+      "weight": 9.1,
+      "owner_name": "David Kim",
+      "owner_email": "d.kim@example.com"
+    }
+  ],
+  "behaviors": [
+    {
+      "id": 1,
+      "cat_id": 1,
+      "behavior_type": "playing",
+      "timestamp": "2025-10-28T14:30:00",
+      "duration": 15,
+      "intensity": "high",
+      "context": "with feather toy",
+      "location": "living_room"
+    },
+    {
+      "id": 2,
+      "cat_id": 1,
+      "behavior_type": "sleeping",
+      "timestamp": "2025-10-28T15:00:00",
+      "duration": 120,
+      "intensity": "medium",
+      "context": "post-play nap",
+      "location": "cat_tree"
+    },
+    {
+      "id": 3,
+      "cat_id": 2,
+      "behavior_type": "vocalizing",
+      "timestamp": "2025-10-29T06:15:00",
+      "duration": 5,
+      "intensity": "high",
+      "context": "demanding breakfast",
+      "location": "kitchen"
+    },
+    {
+      "id": 4,
+      "cat_id": 2,
+      "behavior_type": "grooming",
+      "timestamp": "2025-10-29T08:30:00",
+      "duration": 20,
+      "intensity": "medium",
+      "context": "morning routine",
+      "location": "window_sill"
+    },
+    {
+      "id": 5,
+      "cat_id": 3,
+      "behavior_type": "eating",
+      "timestamp": "2025-10-29T18:00:00",
+      "duration": 10,
+      "intensity": "medium",
+      "context": "dinner time",
+      "location": "kitchen"
+    },
+    {
+      "id": 6,
+      "cat_id": 3,
+      "behavior_type": "scratching",
+      "timestamp": "2025-10-29T19:15:00",
+      "duration": 3,
+      "intensity": "high",
+      "context": "post-meal energy",
+      "location": "scratching_post"
+    },
+    {
+      "id": 7,
+      "cat_id": 4,
+      "behavior_type": "hiding",
+      "timestamp": "2025-10-30T10:00:00",
+      "duration": 45,
+      "intensity": "low",
+      "context": "doorbell rang",
+      "location": "under_bed"
+    },
+    {
+      "id": 8,
+      "cat_id": 4,
+      "behavior_type": "playing",
+      "timestamp": "2025-10-30T16:30:00",
+      "duration": 8,
+      "intensity": "medium",
+      "context": "with laser pointer",
+      "location": "hallway"
+    },
+    {
+      "id": 9,
+      "cat_id": 1,
+      "behavior_type": "hunting",
+      "timestamp": "2025-10-31T07:45:00",
+      "duration": 12,
+      "intensity": "high",
+      "context": "stalking toy mouse",
+      "location": "bedroom"
+    },
+    {
+      "id": 10,
+      "cat_id": 2,
+      "behavior_type": "climbing",
+      "timestamp": "2025-10-31T11:20:00",
+      "duration": 5,
+      "intensity": "high",
+      "context": "exploring new cat tower",
+      "location": "living_room"
+    },
+    {
+      "id": 11,
+      "cat_id": 3,
+      "behavior_type": "kneading",
+      "timestamp": "2025-10-31T20:00:00",
+      "duration": 7,
+      "intensity": "medium",
+      "context": "sitting on owner's lap",
+      "location": "couch"
+    },
+    {
+      "id": 12,
+      "cat_id": 1,
+      "behavior_type": "drinking",
+      "timestamp": "2025-11-01T09:30:00",
+      "duration": 2,
+      "intensity": "low",
+      "context": "from water fountain",
+      "location": "kitchen"
+    }
+  ]
+}
