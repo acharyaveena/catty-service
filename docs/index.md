@@ -1,18 +1,22 @@
 <!-- vale Google.Headings = NO -->
 
-# Welcome to MeowTrition
+# Welcome to MeowTrition API Documentation
 
 <!-- vale Google.Headings = YES -->
 
-MeowTrition is a REST API that provides comprehensive cat food nutrition data
-to help you make informed feeding decisions. Access detailed nutritional
+**MeowTrition** is a REST API that provides comprehensive cat food nutrition
+data to help you make informed feeding decisions. Access detailed nutritional
 profiles, ingredient lists, and science-based recommendations for thousands of
 cat food products.
 
+> **Note**: MeowTrition is one API within the **Catty** service suite. Catty
+> provides APIs for cat care, including **MeowTrition** for nutrition data
+> and **MeowMetrics** for health tracking.
+
 ## 📖 Overview
 
-- [MeowTrition overview](./overview/meowtrition-overview.md) - Learn about the
-  MeowTrition API, core concepts, and how it fits in the Catty App suite
+- [MeowTrition API overview](./overview/meowtrition-overview.md) - Learn about
+  MeowTrition's core concepts and capabilities
 
 ## 🚀 Getting started
 

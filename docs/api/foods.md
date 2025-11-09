@@ -1,7 +1,8 @@
 # Foods resource
 
-The `foods` resource is the core of the MeowTrition API. It allows you to
-access a comprehensive database of cat food products.
+The `foods` resource is the core of the **MeowTrition API** (part of the Catty
+service suite). It allows you to access a comprehensive database of cat food
+products.
 
 ---
 
@@ -16,7 +17,7 @@ Retrieves a list of all cat food products. You can filter the results using quer
 | `brand` | string | Filter by brand name | `GET /foods?brand=Purrfect%20Choice` |
 | `type` | string | Filter by food type | `GET /foods?type=wet` |
 | `age_group` | string | Filter by age group | `GET /foods?age_group=senior` |
-| `special_diet` | string | Filter by special diet. | `GET /foods?special_diet=grain_free` |
+| `special_diet` | string | Filter by special diet | `GET /foods?special_diet=grain_free` |
 
 ### Example request
 
@@ -68,7 +69,7 @@ Retrieves detailed information for a specific food product by its unique ID.
 
 | Parameter | Type | Description |
 |---|---|---|
-| `id` | integer | The unique identifier for the food product. |
+| `id` | integer | The unique identifier for the food product |
 
 ### Example request for specific food
 
