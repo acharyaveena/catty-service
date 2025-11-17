@@ -1,9 +1,9 @@
-# Foods resource
-
-The `foods` resource is the core of the **MeowTrition API** (part of the Catty
-service suite). It allows you to access a comprehensive database of cat food
-products.
-
+---
+layout: default
+title: GET /foods
+parent: API Resources
+grand_parent: API Reference
+nav_order: 1
 ---
 
 ## `GET /foods`
@@ -59,52 +59,10 @@ GET http://localhost:3000/foods?age_group=senior&type=wet
 ]
 ```
 
----
+### Response status codes
 
-## `GET /foods/{id}`
-
-Retrieves detailed information for a specific food product by its unique ID.
-
-### Path parameters
-
-| Parameter | Type | Description |
-|---|---|---|
-| `id` | integer | The unique identifier for the food product |
-
-### Example request for specific food
-
-```bash
-GET http://localhost:3000/foods/6
-```
-
-### Example response for specific food
-
-```json
-{
-  "id": 6,
-  "brand": "Purrfect Choice",
-  "name": "Grain-Free Turkey",
-  "type": "wet",
-  "age_group": "adult",
-  "special_diet": "grain_free",
-  "nutritional_profile": {
-    "protein": 42,
-    "fat": 18,
-    "fiber": 1,
-    "moisture": 82,
-    "calories_per_can": 195
-  },
-  "ingredients": [
-    "turkey",
-    "turkey liver",
-    "turkey broth",
-    "peas",
-    "carrots",
-    "fish oil",
-    "taurine"
-  ],
-  "rating": 4.7,
-  "recommendations": "High protein, grain-free option for cats with grain sensitivities. 
-  Rich in natural moisture."
-}
-```
+| Status Code | Description |
+|-------------|-------------|
+| `200 OK` | Successfully retrieved the list of foods |
+| `400 Bad Request` | Invalid query parameter value |
+| `500 Internal Server Error` | Server error occurred while processing the request |

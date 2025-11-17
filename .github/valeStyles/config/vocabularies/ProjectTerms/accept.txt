@@ -1,0 +1,18 @@
+MeowTrition
+json-server
+Postman
+Visual Studio Code
+REST
+API
+localhost
+GitHub Desktop
+auth-middleware.js
+catty-db-source.json
+curl
+npm
+Node.js
+GET
+POST
+PUT
+PATCH
+DELETE
