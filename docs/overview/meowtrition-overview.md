@@ -1,6 +1,11 @@
+---
+layout: default
+title: Overview
+nav_order: 2
+---
 <!-- vale Google.Headings = NO -->
 
-# MeowTrition API Overview
+## MeowTrition API Overview
 
 <!-- vale Google.Headings = YES -->
 
@@ -40,4 +45,4 @@ search for the best food for your cat's needs, age, and diet.
 ## Next steps
 
 For setup instructions, tutorials, API reference, and support, visit the
-[documentation home](../index.md).
+[documentation home](../../index.md).

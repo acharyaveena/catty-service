@@ -1,0 +1,31 @@
+title: Catty Service API
+description: REST APIs for cat nutrition and health tracking
+
+remote_theme: just-the-docs/just-the-docs
+
+#theme: "just-the-docs"
+
+# Enable search
+search_enabled: true
+
+# Enable breadcrumbs
+breadcrumbs: true
+
+# GitHub Pages settings
+url: "https://acharyaveena.github.io"
+baseurl: "/catty-service"
+
+# For local development - no baseurl
+#url: "http://localhost:4000"
+#baseurl: ""
+
+# Add "View on GitHub" button
+aux_links:
+  "View on GitHub":
+    - "https://github.com/acharyaveena/catty-service"
+
+# Open aux links in new tab
+aux_links_new_tab: true
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Catty Service. Distributed by an <a href=\"https://github.com/acharyaveena/catty-service/tree/main/LICENSE\">MIT license.</a>"
