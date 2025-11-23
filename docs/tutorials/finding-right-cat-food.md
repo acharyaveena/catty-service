@@ -135,14 +135,20 @@ curl "http://localhost:3000/foods?age_group=senior&special_diet=weight_control"
 
 - Protein: 30%+ for adults
 - First ingredient: Real meat
-- Contains: Taurine (essential)
+- Contains: Taurine, an essential nutrient for healthy digestion
 
 ---
 
 ## Next steps
 
-- [Foods for sensitive stomachs](sensitive-stomachs) tutorial
-- [GET /foods](../api-reference/api-resources/get-all-foods) reference
+- [View all cat food products](../api-reference/api-resources/get-all-foods)  
+See the complete list and details of food products
+- [Add a new food product](adding-new-food-product)  
+Add a new cat food product - only available to admins
+- [Update a food product](updating-food-product)  
+Change details of an existing product - only available to admins
+- [Delete a food product](deleting-food-product)  
+Remove a product from the database - only available to admins
 
 ---
 

@@ -33,10 +33,12 @@ products.
 
 ## 📚 Tutorials
 
-- [Finding the right cat food](docs/tutorials/finding-right-cat-food) -- Search by age, diet,
+- [Finding the right cat food](docs/tutorials/finding-right-cat-food) - Search by age, diet,
   and nutritional needs
-- [Foods for sensitive stomachs](docs/tutorials/foods-for-sensitive-stomachs) - Find gentle
-  options for digestive issues
+- [Adding a new food product](docs/tutorials/adding-new-food-product) - Only admins can add new
+  food products
+- [Updating a food product](docs/tutorials/updating-food-product) - Only admins can change product details
+- [Deleting a food product](docs/tutorials/deleting-food-product) - Only admins can remove products
 
 ## 🔌 API reference
 

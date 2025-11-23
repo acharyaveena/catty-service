@@ -47,8 +47,11 @@ curl -X POST http://localhost:3000/foods \
   -H "X-API-Key: test-api-key-12345" \
   -d '{"brand": "Test Brand", "name": "Test Food"}'
 ```
+<!-- vale off -->
 
 ### Example with Postman
+
+<!-- vale on -->
 
 1. Open your request (POST/PUT/DELETE)
 2. Go to the **Headers** tab
