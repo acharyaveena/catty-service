@@ -65,7 +65,7 @@ Include only fields you want to update:
 | `200 OK` | Food product updated successfully |
 | `400 Bad Request` | Invalid data format |
 | `401 Unauthorized` | Missing or invalid API key |
-| `404 Not Found` | Food ID does not exist |
+| `404 Not Found` | Food ID doesn't exist |
 | `500 Internal Server Error` | Server error |
 
 ### Success response
