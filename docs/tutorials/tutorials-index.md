@@ -5,6 +5,8 @@ nav_order: 4
 has_children: true
 ---
 
+![Catty Tutorials](../../assets/images/cat-food-tutorial.jpg)
+
 ## Tutorials
 
 Learn how to use the MeowTrition API with practical, step-by-step guides.
