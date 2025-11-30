@@ -5,8 +5,11 @@ nav_order: 1
 ---
 <!-- vale Google.Headings = NO -->
 
+![Catty Service Logo](/assets/images/catty-lady.jpg)
+
 ## Welcome to Catty Service API Documentation
 
+---
 <!-- vale Google.Headings = YES -->
 
 **Catty** is a comprehensive REST API suite designed to help cat owners and veterinary

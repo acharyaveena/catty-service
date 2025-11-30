@@ -5,18 +5,16 @@ nav_order: 2
 ---
 <!-- vale Google.Headings = NO -->
 
+![Meowtrition Logo](../../assets/images/cat-eating.jpg)
+
 ## MeowTrition API Overview
 
+---
 <!-- vale Google.Headings = YES -->
 
-Welcome to the MeowTrition API documentation. This REST API gives you cat food
-nutrition data. Use it to make better feeding choices for your cat.
-
-## Overview
-
-The MeowTrition API gives you access to a large cat food database. Each
-product has nutrition facts, ingredient lists, and vet tips. Use this API to
-search for the best food for your cat's needs, age, and diet.
+Welcome to the MeowTrition API documentation. This REST API gives you access to a large cat food
+database, including nutrition facts, ingredient lists, and vet tips. Use it to make better feeding
+choices for your cat by searching for products that match your cat's needs, age, and diet.
 
 ### Core concepts
 

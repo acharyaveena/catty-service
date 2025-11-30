@@ -9,7 +9,14 @@ nav_order: 1
 
 Learn how to search for cat food products based on your cat's age, dietary needs, and preferences.
 
-**Time required:** 10 minutes
+**Time required:** approximately 10 minutes
+
+---
+
+## Who is this for?
+
+Cat owners, shelter volunteers, veterinarians, and developers who want to find the best food  
+for cats based on specific needs.
 
 ---
 
@@ -28,35 +35,49 @@ You need to find high-protein, grain-free wet food for your adult cat, Whiskers.
 
 ## Step 1: Find all wet foods
 
-Start by filtering for wet food only:
+**cURL:**  
+  Use this command-line tool to list all wet food products.
 
-```bash
-curl "http://localhost:3000/foods?type=wet"
-```
+  ```bash
+  curl "http://localhost:3000/foods?type=wet"
+  ```
 
-**Result:** returns all wet food products.
+**Postman:**  
+  Create a GET request to `http://localhost:3000/foods?type=wet` and click Send.
+
+**Expected response:** returns all wet food products.
 
 ---
 
 ## Step 2: Filter by age group
 
-Add the age filter for adult cats:
+**cURL:**  
+  List wet foods for adult cats.
 
-```bash
-curl "http://localhost:3000/foods?type=wet&age_group=adult"
-```
+  ```bash
+  curl "http://localhost:3000/foods?type=wet&age_group=adult"
+  ```
 
-**Result:** returns wet foods suitable for adult cats.
+**Postman:**  
+  Set the URL to `http://localhost:3000/foods?type=wet&age_group=adult` and click Send.
+
+**Expected response:** returns wet foods suitable for adult cats.
 
 ---
 
 ## Step 3: Add dietary requirements
 
-Filter for grain-free options:
+**cURL:**  
+  Filter for grain-free options.
 
-```bash
-curl "http://localhost:3000/foods?type=wet&age_group=adult&special_diet=grain_free"
-```
+  ```bash
+  curl "http://localhost:3000/foods?type=wet&age_group=adult&special_diet=grain_free"
+  ```
+
+**Postman:**  
+  Set the URL to  
+  `http://localhost:3000/foods?type=wet&age_group=adult&special_diet=grain_free`  
+  and click Send.
 
 **Expected response:**
 
@@ -93,13 +114,17 @@ curl "http://localhost:3000/foods?type=wet&age_group=adult&special_diet=grain_fr
 
 ## Step 4: Get detailed information
 
-Get complete details for this product:
+**cURL:**  
+  Get complete details for this product.
 
-```bash
-curl http://localhost:3000/foods/6
-```
+  ```bash
+  curl http://localhost:3000/foods/6
+  ```
 
-This returns the full record with ratings and recommendations.
+**Postman:**  
+  Create a GET request to `http://localhost:3000/foods/6` and click Send.
+
+**Expected response:** returns the full record with ratings and recommendations.
 
 ---
 
@@ -139,16 +164,20 @@ curl "http://localhost:3000/foods?age_group=senior&special_diet=weight_control"
 
 ---
 
+## Troubleshooting
+
+- **401 Unauthorized:** Check your API key if required.
+- **400 Bad Request:** Check your query parameters.
+- **Connection errors:** Make sure json-server is running and the URL is correct.
+
+---
+
 ## Next steps
 
-- [View all cat food products](../api-reference/api-resources/get-all-foods)  
-See the complete list and details of food products
-- [Add a new food product](adding-new-food-product)  
-Add a new cat food product - only available to admins
-- [Update a food product](updating-food-product)  
-Change details of an existing product - only available to admins
-- [Delete a food product](deleting-food-product)  
-Remove a product from the database - only available to admins
+- [View all cat food products](../api-reference/api-resources/get-all-foods)
+- [Add a new food product](adding-new-food-product)
+- [Update a food product](updating-food-product)
+- [Delete a food product](deleting-food-product)
 
 ---
 
