@@ -10,13 +10,13 @@ nav_order: 3
 Learn how to authenticate your API requests for write operations.
 
 ---
-
+<!-- vale off -->
 ## Overview
 
 The MeowTrition API uses **API key authentication** for write operations:
 
 - **POST** - Create new food records
-- **PUT** - Update existing food records  
+- **PUT/PATCH** - Update existing food records  
 - **DELETE** - Remove food records
 
 Read operations like GET don't require authentication.
@@ -47,11 +47,10 @@ curl -X POST http://localhost:3000/foods \
   -H "X-API-Key: test-api-key-12345" \
   -d '{"brand": "Test Brand", "name": "Test Food"}'
 ```
-<!-- vale off -->
 
 ### Example with Postman
 
-<!-- vale on -->
+Use Postman Desktop to visually add the API key.
 
 1. Open your request (POST/PUT/DELETE)
 2. Go to the **Headers** tab
@@ -98,6 +97,14 @@ curl -X POST http://localhost:3000/foods \
 
 ---
 
+## Troubleshooting
+
+- **401 Unauthorized:** Check your API key and header spelling.
+- **400 Bad Request:** Validate your JSON format and required fields.
+- **Connection errors:** Make sure json-server is running and the URL is correct.
+  
+---
+
 ## Next steps
 
 Try these authenticated operations:
@@ -106,3 +113,4 @@ Try these authenticated operations:
 - [PUT - Update foods](../api-reference/operations/PUT)
 - [DELETE - Remove foods](../api-reference/operations/DELETE)
   
+  <!-- vale on -->

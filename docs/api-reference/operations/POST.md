@@ -8,7 +8,7 @@ nav_order: 2
 
 <!-- vale Google.Headings = NO -->
 
-## POST - Create food  🔒
+## POST - Add food product
 
 <!-- vale Google.Headings = YES -->
 
@@ -24,7 +24,7 @@ See [Authentication](../../getting-started/authentication) for details.
 
 ---
 
-## Post /foods
+## `Post /foods`
 
 Create a new food product record.
 

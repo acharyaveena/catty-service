@@ -5,6 +5,8 @@ nav_order: 5
 has_children: true
 ---
 
+![Catty API Reference](../../assets/images/cat-foods-api.png)
+
 ## API reference
 
 REST API docs for MeowTrition.

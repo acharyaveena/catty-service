@@ -5,6 +5,11 @@ remote_theme: just-the-docs/just-the-docs
 
 #theme: "just-the-docs"
 
+# Custom CSS
+custom_css:
+  - assets/css/custom-style.css
+  #- _sass/custom.scss
+
 # Enable search
 search_enabled: true
 

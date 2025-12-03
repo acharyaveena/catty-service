@@ -104,9 +104,9 @@ You should see a JSON array of cat food products:
     "name": "Premium Chicken & Rice",
     "type": "dry",
     "age_group": "adult",
-    ...
+    //...
   },
-  ...
+  //...
 ]
 ```
 
@@ -114,14 +114,12 @@ You should see a JSON array of cat food products:
 
 ## Troubleshooting
 
-If you encounter errors:
-
-| Problem | Solution |
-|---------|----------|
-| Command not found | Verify you have installed the software and added it to your PATH |
-| Port already in use | Stop other services using port 3000, or specify a different port|
-| File not found | Verify you're in the correct directory |
-| JSON syntax error | Verify you haven't modified `catty-db-source.json` |
+| Problem              | Solution                                               |
+|----------------------|--------------------------------------------------------|
+| Command not found    | Check software installation and PATH settings          |
+| Port already in use  | Stop other services on port 3000 or use a different port |
+| File not found       | Make sure you’re in the correct directory              |
+| JSON syntax error    | Check for changes in `catty-db-source.json`            |
 
 ---
 
@@ -130,13 +128,13 @@ If you encounter errors:
 Once your setup is complete and the test request succeeds, you're ready to start the tutorials:
 
 - [Quick Start Guide](quick-start)
-- [Finding the right cat food](../tutorials/finding-food)
-- [Foods for sensitive stomachs](../tutorials/sensitive-stomachs)
+- [Finding the right cat food](../tutorials/finding-right-cat-food)
+- [Adding a new cat food product](../tutorials/adding-new-food-product)
 
 ---
 
 ## Need help?
 
-- **Setup issues?** Check the [Troubleshooting](#troubleshooting) section
-- **Bug reports?** [Open an issue](https://github.com/acharyaveena/catty-service/issues)
+- For setup issues, see [Troubleshooting](#troubleshooting)
+- For bugs, [open an issue](https://github.com/acharyaveena/catty-service/issues)
   
