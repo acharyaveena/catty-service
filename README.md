@@ -4,7 +4,7 @@
 [![Jekyll](https://img.shields.io/badge/Jekyll-4.3.3-red)](https://jekyllrb.com/)
 
 > REST API documentation for MeowTrition, a cat food nutrition database.  
-> Part of the University of Washington API Documentation Certificate program.
+> Part of the University of Washington's API Documentation Certificate program.
 
 **📚 [View Live Documentation](https://acharyaveena.github.io/catty-service/)**
 
