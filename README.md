@@ -134,14 +134,6 @@ vale docs/
 
 ---
 
-## Collaboration
-
-**PetFinder API SME Work:**  
-Served as Subject Matter Expert for PetFinder API (REST API connecting rescue animals  
-with adopters), contributing to endpoint documentation and peer reviews.
-
----
-
 ## Portfolio
 
 This project demonstrates:
