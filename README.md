@@ -4,7 +4,7 @@
 [![Jekyll](https://img.shields.io/badge/Jekyll-4.3.3-red)](https://jekyllrb.com/)
 
 > REST API documentation for MeowTrition, a cat food nutrition database.  
-> Part of the University of Washington API Documentation Certificate program.
+> Part of the University of Washington's API Documentation Certificate program.
 
 **📚 [View Live Documentation](https://acharyaveena.github.io/catty-service/)**
 
@@ -131,14 +131,6 @@ choco install vale # Windows
 # Run linting
 vale docs/
 ```
-
----
-
-## Collaboration
-
-**PetFinder API SME Work:**  
-Served as Subject Matter Expert for PetFinder API (REST API connecting rescue animals  
-with adopters), contributing to endpoint documentation and peer reviews.
 
 ---
 
