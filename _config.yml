@@ -28,7 +28,7 @@ baseurl: "/catty-service"
 aux_links:
   "View on GitHub":
     - "https://github.com/acharyaveena/catty-service"
-  "My Complete Portfolio":
+  "View My Portfolio":
     - "https://acharyaveena.github.io"
 
 # Open aux links in new tab
