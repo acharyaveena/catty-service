@@ -56,3 +56,9 @@ products.
   [Before you start](/docs/getting-started/before-you-start.md) guide
 - **Bugs or feature requests?** [Open an
   issue](https://github.com/acharyaveena/catty-service/issues)
+
+---
+
+👩‍💻 **About the author** — This documentation was created by Veena Acharya, a Technical Writer and Software Engineer specializing in API documentation and developer guides.
+[View my complete portfolio →](https://acharyaveena.github.io)
+
