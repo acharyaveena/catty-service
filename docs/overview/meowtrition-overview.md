@@ -5,8 +5,6 @@ nav_order: 2
 ---
 <!-- vale Google.Headings = NO -->
 
-![Meowtrition Logo](../../assets/images/cat-eating.jpg)
-
 ## MeowTrition API Overview
 
 ---
@@ -15,7 +13,7 @@ nav_order: 2
 Watch the quick intro video below to see MeowTrition in action before diving into the details.
 
 <div>
-<video width="560" controls>
+<video width="800" controls>
   <source src="{{ '/assets/videos/Catty-Intro.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
