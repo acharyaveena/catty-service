@@ -13,7 +13,7 @@ nav_order: 2
 <!-- vale Google.Headings = YES -->
 
 <video width="560" controls>
-  <source src="{{ '/assets/videos/Catty-Intro.mp4' | relative_url }}" type="video/mp4">
+  <source src="../../assets/videos/Catty-Intro.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
