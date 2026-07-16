@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: overview
 title: Overview
 nav_order: 2
 ---
@@ -11,8 +11,6 @@ nav_order: 2
 
 ---
 <!-- vale Google.Headings = YES -->
-
-{% include intro-video.html %}
 
 Welcome to the MeowTrition API documentation. This REST API gives you access to a large cat food
 database, including nutrition facts, ingredient lists, and vet tips. Use it to make better feeding
