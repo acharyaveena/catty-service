@@ -12,10 +12,12 @@ nav_order: 2
 ---
 <!-- vale Google.Headings = YES -->
 
+<div>
 <video width="560" controls>
   <source src="https://acharyaveena.github.io/catty-service/assets/videos/Catty-Intro.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+</div>
 
 Welcome to the MeowTrition API documentation. This REST API gives you access to a large cat food
 database, including nutrition facts, ingredient lists, and vet tips. Use it to make better feeding
